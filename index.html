@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgoodShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AgoodShop</h1>
+    <div id="contenedor">
+        <div id="contenedorTable">
+            <table id="tablaProductos" class="mitabla">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Pr. Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTabla">
+                    <!-- Productos se llenarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+        <div id="cesta">
+            <h2>Tu Cesta</h2>
+            <div id="carrito">
+                <p>El carrito está vacío</p>
+            </div>
+            <div id="totalCesta">
+                <h3>Total: <span id="totalPrecio">0 €</span></h3>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
